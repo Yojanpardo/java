@@ -31,7 +31,7 @@ public class main {
                     carro1.setMotor(c);
                     carro1.setNumero(d);
                     break;
-                case 2: System.out.println("color: "+carro1.getColor()+"\nMatricula: "+carro1.getMatricula()+"\nTipo de motor: "+carro1.getMotor()+"\nNumero: "+carro1.getNumero());
+                case 2: JOptionPane.showMessageDialog(null,"color: "+carro1.getColor()+"\nMatricula: "+carro1.getMatricula()+"\nTipo de motor: "+carro1.getMotor()+"\nNumero: "+carro1.getNumero());
                     break;
             }
         } while (op != 0);
